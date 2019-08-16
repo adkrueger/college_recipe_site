@@ -1,0 +1,25 @@
+body {
+    background-image: url("katie-smith-104748-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.mainInfo {
+    box-shadow: 3px 3px 50px rgba(0,0,0,0.5);
+    background: linear-gradient(45deg, rgba(156,122,78,0.8) 40%, rgba(208,193,137,0.8) 100%);
+    border: rgb(156,122,78) 3px solid;
+    border-radius: 1px 20px 1px 20px;
+    margin: 20% 20% 20% 20%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: -1;
+}
+
+.mainInfo:hover {
+    cursor: default;
+}
